@@ -16,7 +16,7 @@ var launcherObject
 var launchingForce=100;
 
 function preload(){
-	boy=loadImage("images/boy.png");
+	boy=loadImage("boy.png");
   }
 
 function setup() {
@@ -51,7 +51,7 @@ function draw() {
 
   background(230);
   textSize(25);
-  text("Press Space to get a second Chance to Play!!",50 ,50);
+  text("Press Space to get a Second Chance to Play!!",50 ,45);
   image(boy ,200,340,200,300);
   
 
